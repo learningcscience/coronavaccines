@@ -1,0 +1,276 @@
+  * {box-sizing: border-box}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+   .header{
+  background-color:#fda226;
+   text-align:center;
+  font-size:20px;
+  font-family: 'Anton', sans-serif;
+      color: #77461b;
+ }
+
+
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+ 
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+
+     .slides {display: none}
+.slideshow {
+
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+ color:#76d250;
+   padding-top:20%;
+  cursor: pointer;
+  font-size:40px; 
+ 
+}
+
+  
+
+
+.next {
+  right: 0;
+}
+
+.fade {
+	
+  animation-name: fade;
+  animation-duration: 1s;
+
+
+}
+
+
+@keyframes fade {
+  from {
+	opacity: .2;
+	
+	}
+  
+  to {
+	opacity: 2;
+     }
+
+}
+    
+
+  .col-s-4 img{
+  height:auto;
+  width:100%;
+  padding:10px;
+  
+}
+ .col-s-4 col-4{
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size:10px;
+}
+ .col-s-8{
+  padding:10px;
+ font-family: 'Archivo Narrow', sans-serif;
+  font-size:20px;
+}
+.abouth1{
+   text-align:center;
+font-family: 'Merriweather Sans', sans-serif;
+  color:#945f28;
+}
+
+  
+
+
+
+p {
+    color: #af7a33;
+   font-size:21px;
+}
+h4 {
+    color:#84520f;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size:22px;
+}
+ 
+ h5 {
+ text-align:center;
+color: #c17d20;
+  font-size:22px;
+}
+h3 {
+    text-align: center;
+     color:#a0802a;
+      font-family: 'Merriweather Sans', sans-serif;
+      font-size:30px;
+}
+ 
+  label {
+    font-size: 20px;
+    color:#d2af2f;
+     font-family: 'Merriweather Sans', sans-serif;
+}
+
+.coronaform{
+  text-align:center;
+}
+  input[type="text"] {
+    width: 50%;
+    padding: 14px;
+   outline:none;
+  
+    border: 1px solid #40ab69;
+}
+  
+  input[type="password"] {
+    width: 50%;
+    padding: 14px;
+   outline:none;
+  
+    border: 1px solid #40ab69;
+}
+#submit{
+   border: 1px solid green;
+    outline: none;
+       padding: 15px 20px;
+    background: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 1s;
+    color: #c1875e;
+   margin:10px;
+}
+
+input {
+  text-align: center;
+  width: 60px;
+}
+
+
+textarea {
+    outline: none;
+    border: 1px solid #ff8d00;
+   width:100%;
+   height:auto;
+   background-color:#865f1f;
+
+}
+
+   i.fa.fa-facebook {
+    font-size:50px;
+       color: #0a0703;
+}
+  i.fa.fa-twitter-square {
+    font-size: 50px;
+       color: #0a0703;
+}
+
+i.fa.fa-instagram {
+    font-size: 50px;
+       color: #0a0703;
+}
+
+.row1{
+  bakground-color:green;
+}
+button {
+  
+    outline: none;
+    border: 1px solid #e6ba3e;
+    background-color: #d4863c;
+ font-size:20px;
+  padding:10px;
+  cursor:pointer;
+      margin: 10px
+}
+ .icon{
+  text-align:center;
+}
+ .sym{
+  padding-left:40px;
+}
+ .fotter1{
+  background-color:#583e11;
+
+ }
+
+.fotter2{
+  padding: 20px;
+    background-color: #b97f3c;
+    text-align:center;
+   font-family: 'Merriweather Sans', sans-serif; 
+   font-size:25px;
+}
+
+ h6{
+  color:white;
+  font-size:25px;
+  text-align:center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+   
+@media screen and (max-width:411px) {
+.prev, .next {
+  position: absolute;
+
+ color:#76d250;
+   padding-top:35%;
+  cursor: pointer;
+  font-size:40px; 
+ 
+}
+}
